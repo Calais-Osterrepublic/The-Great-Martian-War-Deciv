@@ -1,0 +1,19 @@
+[
+	{
+		"name": "Suicider",
+		"uniqueTo": "Barbarians",
+		"replaces": "Forward Observer",
+		"unitType": "Scrapper",
+		"range": 1,
+		"movement": 4,
+		"strength": 20,
+		"cost": 55,
+		"requiredTech": "Machinery",
+		"uniques": ["Self-destructs when attacking",
+			"[+200]% Strength <vs [Military] units> <when attacking>",
+			"[+300]% Strength <vs cities> <when attacking>"],
+		"promotions": ["Raider", "Napalm"],
+		"hurryCostModifier": 20,
+		"attackSound": "nuke"
+	},
+]
