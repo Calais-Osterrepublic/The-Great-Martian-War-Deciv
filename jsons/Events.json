@@ -1,0 +1,19 @@
+[
+	{
+		"name": "Wave 1",
+		"text": "",
+		"presentation": "None",
+		"choices": [
+			{
+				"text": "Scouting Party",
+				"triggeredUniques": ["Free [Unophage] appears <for [Barbarians]>"],
+				"conditions": []
+			},
+			{
+				"text": "Crashed Phage",
+				"triggeredUniques": ["Free [FarCrawler] appears <for [Barbarians]>"],
+				"conditions": []
+			}
+		]
+	},
+]
