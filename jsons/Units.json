@@ -4,7 +4,7 @@
 		"unitType": "Phage Land",
 		"movement": 4,
 		"strength": 30,
-		"range": 1,
+		"range": 2,
 		"rangedStrength": 60,
 		"uniques": [
 			"Cannot move",
