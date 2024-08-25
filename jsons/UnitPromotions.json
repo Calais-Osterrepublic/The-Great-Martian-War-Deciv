@@ -1,0 +1,22 @@
+[
+	{
+		"name":"Heal Instantly II",
+		"uniques":[
+			"[This Unit] heals [50] HP",
+			"Doing so will consume this opportunity to choose a Promotion"
+		],
+		"unitTypes":["Asylbewerber","Phage Land","Phage Water"],
+		"innerColor":[
+			253,
+			236,
+			234
+		],
+		"outerColor":[
+			195,
+			53,
+			43
+		],
+		"row":0,
+		"column":15
+	}
+]
