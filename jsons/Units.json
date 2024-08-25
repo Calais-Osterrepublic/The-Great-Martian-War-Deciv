@@ -83,7 +83,7 @@
 		
 	{
 		"name": "FarCrawler",
-		"unitType": "Asylbewerber Land",
+		"unitType": "Asylbewerber",
 		"movement": 4,
 		"strength": 10,
 		"uniques": [
@@ -96,30 +96,32 @@
 	},
 	{
 		"name": "Tripod",
-		"unitType": "Asylbewerber Land",
+		"unitType": "Asylbewerber",
 		"movement": 2,
 		"strength": 60,
 		"range": 1,
 		"rangedStrength": 20,
 		"cost": 400,
-		"requiredTech": "Electronics",
+		//"requiredTech": "Electronics",
 		"uniques": [
-			"Cannot be purchased <in cities without a [Asylbe Lab]>",
-			"Unbuildable <in cities without a [Asylbe Lab]>",
+			"Cannot be purchased",
+			"Unbuildable",
+			"May travel on Water tiles without embarking"
 		],
 		"promotions": ["Ignore terrain cost"],
 		"attackSound": "metalhit"
 	},
 	{
 		"name": "Heron",
-		"unitType": "Asylbewerber Land",
-		"movement": 2,
+		"unitType": "Asylbewerber",
+		"movement": 1,
 		"strength": 50,
 		"range": 2,
 		"rangedStrength": 100,
 		"uniques": [
 			"Cannot be purchased",
 			"Unbuildable",
+			"May travel on Water tiles without embarking",
 			"[+100]% Strength bonus for [Tripod] units within [2] tiles",
 			"[+100]% Strength <vs [Air] units> <when defending>",
 			"Comment [Can construct Tripod units]",
