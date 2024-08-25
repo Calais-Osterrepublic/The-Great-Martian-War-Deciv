@@ -46,7 +46,7 @@
 			"Withdraws before melee combat",
 			"Cannot be purchased",
 			"Unbuildable",
-			"[2] free [Residual Form] units appear <upon being defeated> <with [90]% chance>"
+			"Free [Residual Form] appears <upon being defeated> <with [80]% chance>"
 		],
 		"attackSound": "shot"
 	},
@@ -105,7 +105,8 @@
 		"uniques": [
 			"Cannot be purchased",
 			"Unbuildable",
-			"May travel on Water tiles without embarking"
+			"May travel on Water tiles without embarking",
+			"Free [FarCrawler] appears <upon being defeated>"
 		],
 		"promotions": ["Ignore terrain cost"],
 		"attackSound": "metalhit"
@@ -124,8 +125,7 @@
 			"[+100]% Strength bonus for [Tripod] units within [2] tiles",
 			"[+100]% Strength <vs [Air] units> <when defending>",
 			"Comment [Can construct Tripod units]",
-			"Free [Tripod] appears <upon ending a turn in a [Land] tile> <with [50]% chance> <hidden from users>",
-			"Free [Tripod] appears <upon losing at least [20] HP in a single attack> <hidden from users>"
+			"Free [Tripod] appears <upon ending a turn in a [Land] tile> <hidden from users>"
 		],
 		"promotions": ["Ignore terrain cost"],
 		"attackSound": "artillery"
