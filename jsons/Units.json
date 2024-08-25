@@ -57,7 +57,7 @@
 	{
 		"name": "Young Telophage",
 		"unitType": "Phage Land",
-		"movement": 2,
+		"movement": 4,
 		"strength": 15,
 		"cost": 55,
 		"uniques": [
