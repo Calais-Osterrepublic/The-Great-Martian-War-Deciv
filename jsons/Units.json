@@ -13,7 +13,7 @@
 			"[3] additional attacks per turn",
 			"[+100]% Strength <vs [{non-[Air]} {non-[Ranged]}] units> <when defending>",
 			"[+80]% Strength <vs cities> <when defending>",
-			"[This unit] heals [25] HP <upon defeating a [Military] unit>",
+			"[This Unit] heals [25] HP <upon defeating a [Military] unit>",
 
 			"Comment [Gains free Phage Units appear after defeating Military units]",
 			"Free [Young Unophage] appears <upon defeating a [Land] unit> <hidden from users>",
@@ -31,7 +31,7 @@
 			"May upgrade to [Unophage] through ruins-like effects <hidden from users>",
 			"Cannot be purchased",
 			"Unbuildable",
-			"[This unit] upgrades for free including special upgrades <upon defeating a [Military] unit> <hidden from users>",
+			"[This Unit] upgrades for free including special upgrades <upon defeating a [Military] unit> <hidden from users>",
 			"Comment [Transforms into Unophage upon defeating a Military unit]",
 			"Free [Residual Form] appears <upon defeating a [Military] unit> <hidden from users>",
 		],
@@ -75,7 +75,7 @@
 			"Invisible to non-adjacent units",
 			"Cannot be purchased",
 			"Unbuildable",
-			"[This unit] heals [25] HP <upon defeating a [Military] unit>"
+			"[This Unit] heals [25] HP <upon defeating a [Military] unit>"
 		],
 		"attackSound": "shot"
 	},
