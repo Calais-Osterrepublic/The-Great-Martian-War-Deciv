@@ -8,7 +8,7 @@
 				"text": "Incident #1",
 				"triggeredUniques": [
 					"Free [Unophage] appears <for [Barbarians]>",
-					"Free [Farcaller] appears <for [Barbarians]>"
+					"Free [FarCrawler] appears <for [Barbarians]>"
 				],
 				"conditions": []
 			}
