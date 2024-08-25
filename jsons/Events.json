@@ -5,13 +5,38 @@
 		"presentation": "None",
 		"choices": [
 			{
-				"text": "Scouting Party",
-				"triggeredUniques": ["Free [Unophage] appears <for [Barbarians]>"],
+				"text": "Incident #1",
+				"triggeredUniques": [
+					"Free [Unophage] appears <for [Barbarians]>",
+					"Free [Farcaller] appears <for [Barbarians]>"
+				],
 				"conditions": []
-			},
+			}
+		]
+	},
+	{
+		"name": "Wave 2",
+		"text": "",
+		"presentation": "None",
+		"choices": [
 			{
-				"text": "Crashed Phage",
-				"triggeredUniques": ["Free [FarCrawler] appears <for [Barbarians]>"],
+				"text": "Heron Arrival",
+				"triggeredUniques": [
+					"Free [Heron] appears <for [Barbarians]>", 
+					"Free [Unophage] appears <for [Barbarians]>"
+				],
+				"conditions": []
+			}
+		]
+	},
+	{
+		"name": "Wave 3",
+		"text": "",
+		"presentation": "None",
+		"choices": [
+			{
+				"text": "Descent of the Invasion Force",
+				"triggeredUniques": ["[5] free [Heron] units appear <for [Barbarians]>"],
 				"conditions": []
 			}
 		]
