@@ -10,7 +10,6 @@
 					"Free [Unophage] appears <for [Barbarians]>",
 					"Free [FarCrawler] appears <for [Barbarians]>"
 				],
-				"conditions": []
 			}
 		]
 	},
@@ -25,7 +24,6 @@
 					"Free [Heron] appears <for [Barbarians]>", 
 					"Free [Unophage] appears <for [Barbarians]>"
 				],
-				"conditions": []
 			}
 		]
 	},
@@ -36,8 +34,9 @@
 		"choices": [
 			{
 				"text": "Descent of the Invasion Force",
-				"triggeredUniques": ["[5] free [Heron] units appear <for [Barbarians]>"],
-				"conditions": []
+				"triggeredUniques": [
+					"[5] free [Heron] units appear <for [Barbarians]>"
+				]
 			}
 		]
 	},
