@@ -3,25 +3,20 @@
 		"name": "Unophage",
 		"unitType": "Phage Land",
 		"movement": 4,
-		"strength": 10,
+		"strength": 30,
 		"range": 1,
-		"rangedStrength": 20,
-		"cost": 55,
+		"rangedStrength": 60,
 		"uniques": [
 			"Cannot move",
+			"Cannot be purchased",
+			"Unbuildable",
 			"[3] additional attacks per turn",
 			"[+100]% Strength <vs [{non-[Air]} {non-[Ranged]}] units> <when defending>",
 			"[+80]% Strength <vs cities> <when defending>",
 			"[This Unit] heals [25] HP <upon defeating a [Military] unit>",
 
 			"Comment [Gains free Phage Units appear after defeating Military units]",
-			"Free [Young Unophage] appears <upon defeating a [Sword] unit> <hidden from users>",
-			"Free [Young Unophage] appears <upon defeating a [Gunpowder] unit> <hidden from users>",
-			"Free [Young Unophage] appears <upon defeating a [Archery] unit> <hidden from users>",
-			"Free [Young Unophage] appears <upon defeating a [Ranged Gunpowder] unit> <hidden from users>",
-			"Free [Young Telophage] appears <upon defeating a [Mounted] unit> <hidden from users>",
-			"Free [Young Telophage] appears <upon defeating a [Armored] unit> <hidden from users>",
-			"Free [Young Telophage] appears <upon defeating a [Siege] unit> <hidden from users>",
+			"Free [Young Unophage] appears <upon defeating a [Land] unit> <hidden from users>",
 			"Free [Floating Sleeper] appears <upon defeating a [Water] unit> <hidden from users>",
 			"[50]% chance to intercept air attacks"
 		],
@@ -31,39 +26,13 @@
 		"name": "Young Unophage",
 		"unitType": "Phage Land",
 		"movement": 2,
-		"strength": 15,
-		"cost": 55,
+		"strength": 30,
 		"uniques": [
 			"May upgrade to [Unophage] through ruins-like effects <hidden from users>",
+			"Cannot be purchased",
+			"Unbuildable",
 			"[This Unit] upgrades for free including special upgrades <upon defeating a [Military] unit> <hidden from users>",
 			"Comment [Transforms into Unophage upon defeating a Military unit]",
-			"Free [Residual Form] appears <upon defeating a [Military] unit> <hidden from users>",
-		],
-		"attackSound": "shot"
-	},
-	{
-		"name": "Telophage",
-		"unitType": "Phage Land",
-		"movement": 2,
-		"strength": 40,
-		"cost": 55,
-		"uniques": [
-			"Invisible to non-adjacent units",
-			"Free [Residual Form] appears <upon defeating a [Military] unit> <hidden from users>",
-			"[This Unit] heals [25] HP <upon defeating a [Military] unit>",
-		],
-		"attackSound": "shot"
-	},
-	{
-		"name": "Young Telophage",
-		"unitType": "Phage Land",
-		"movement": 4,
-		"strength": 15,
-		"cost": 55,
-		"uniques": [
-			"May upgrade to [Telophage] through ruins-like effects <hidden from users>",
-			"[This Unit] upgrades for free including special upgrades <upon defeating a [Military] unit> <hidden from users>",
-			"Comment [Transforms into Telophage upon defeating a Military unit]",
 			"Free [Residual Form] appears <upon defeating a [Military] unit> <hidden from users>",
 		],
 		"attackSound": "shot"
@@ -73,9 +42,10 @@
 		"unitType": "Phage Land",
 		"movement": 2,
 		"strength": 15,
-		"cost": 55,
 		"uniques": [
 			"Withdraws before melee combat",
+			"Cannot be purchased",
+			"Unbuildable",
 			"Self-destructs when attacking",
 			"[2] free [Residual Form] units appear <upon being defeated> <with [50]% chance>"
 		],
@@ -85,10 +55,11 @@
 		"name": "Floating Sleeper",
 		"unitType": "Phage Water",
 		"movement": 2,
-		"strength": 15,
-		"cost": 55,
+		"strength": 40,
 		"uniques": [
 			"Cannot move",
+			"Cannot be purchased",
+			"Unbuildable",
 			"Self-destructs when attacking",
 			"Invisible to non-adjacent units",
 			"Free [Floater Phage] appears <upon defeating a [Military] unit> <hidden from users>",
@@ -99,12 +70,63 @@
 		"name": "Floater Phage",
 		"unitType": "Phage Water",
 		"movement": 2,
-		"strength": 15,
-		"cost": 55,
+		"strength": 30,
 		"uniques": [
 			"Invisible to non-adjacent units",
+			"Cannot be purchased",
+			"Unbuildable",
 			"[This Unit] heals [25] HP <upon defeating a [Military] unit>"
 		],
 		"attackSound": "shot"
-	}
+	},
+
+		
+	{
+		"name": "FarCrawler",
+		"unitType": "Asylbewerber Land",
+		"movement": 4,
+		"strength": 10,
+		"uniques": [
+			"Cannot be purchased",
+			"Unbuildable",
+			"Invisible to non-adjacent units"
+		],
+		"promotions": ["Ignore terrain cost"],
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Tripod",
+		"unitType": "Asylbewerber Land",
+		"movement": 2,
+		"strength": 60,
+		"range": 1,
+		"rangedStrength": 20,
+		"cost": 400,
+		"requiredTech": "Electronics",
+		"uniques": [
+			"Cannot be purchased <in cities without a [Asylbe Lab]>",
+			"Unbuildable <in cities without a [Asylbe Lab]>",
+		],
+		"promotions": ["Ignore terrain cost"],
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Heron",
+		"unitType": "Asylbewerber Land",
+		"movement": 2,
+		"strength": 50,
+		"range": 2,
+		"rangedStrength": 100,
+		"uniques": [
+			"Cannot be purchased",
+			"Unbuildable",
+			"[+100]% Strength bonus for [Tripod] units within [2] tiles",
+			"[+100]% Strength <vs [Air] units> <when defending>",
+			"Comment [Can construct Tripod units]",
+			"Free [Tripod] appears <upon ending a turn in a [Land] tile> <with [50]% chance> <hidden from users>",
+			"Free [Tripod] appears <upon losing at least [20] HP in a single attack> <hidden from users>"
+		],
+		"promotions": ["Ignore terrain cost"],
+		"attackSound": "artillery"
+	},
 ]
