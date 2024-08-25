@@ -1,15 +1,24 @@
 [
 	{
 		"name": "Asylbewerber",
-		"movementType": "Land"
+		"movementType": "Land",
+		"uniques": [
+			"Can only attack [non-[City]] units"
+		]
 	},
 	{
 		"name": "Phage Land",
 		"movementType": "Land"
+		"uniques": [
+			"Can only attack [non-[City]] units"
+		]
 	},
 	{
 		"name": "Phage Water",
 		"movementType": "Water"
+		"uniques": [
+			"Can only attack [non-[City]] units"
+		]
 	},
 	
 ]
