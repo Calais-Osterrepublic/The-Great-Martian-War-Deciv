@@ -46,8 +46,7 @@
 			"Withdraws before melee combat",
 			"Cannot be purchased",
 			"Unbuildable",
-			"Self-destructs when attacking",
-			"[2] free [Residual Form] units appear <upon being defeated> <with [50]% chance>"
+			"[2] free [Residual Form] units appear <upon being defeated> <with [90]% chance>"
 		],
 		"attackSound": "shot"
 	},
