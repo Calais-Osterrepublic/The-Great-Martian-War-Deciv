@@ -1,0 +1,19 @@
+[
+	{
+		"name": "Asylbewerber Land",
+		"movementType": "Land"
+	},
+	{
+		"name": "Phage Land",
+		"movementType": "Land"
+	},
+	{
+		"name": "Asylbewerber Water",
+		"movementType": "Water"
+	},
+	{
+		"name": "Phage Water",
+		"movementType": "Water"
+	},
+	
+]
