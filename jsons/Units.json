@@ -1,7 +1,7 @@
 [
 	{
 		"name": "Unophage",
-		"unitType": "Phage Land",
+		"unitType": "Phage",
 		"movement": 4,
 		"strength": 30,
 		"range": 2,
@@ -24,7 +24,7 @@
 	},
 	{
 		"name": "Young Unophage",
-		"unitType": "Phage Land",
+		"unitType": "Phage",
 		"movement": 2,
 		"strength": 30,
 		"uniques": [
@@ -39,7 +39,7 @@
 	},
 	{
 		"name": "Residual Form",
-		"unitType": "Phage Land",
+		"unitType": "Phage",
 		"movement": 2,
 		"strength": 15,
 		"uniques": [
@@ -50,35 +50,6 @@
 		],
 		"attackSound": "shot"
 	},
-	{
-		"name": "Floating Sleeper",
-		"unitType": "Phage Water",
-		"movement": 2,
-		"strength": 40,
-		"uniques": [
-			"Cannot move",
-			"Cannot be purchased",
-			"Unbuildable",
-			"Self-destructs when attacking",
-			"Invisible to non-adjacent units",
-			"Free [Floater Phage] appears <upon defeating a [Military] unit> <hidden from users>",
-		],
-		"attackSound": "shot"
-	},
-	{
-		"name": "Floater Phage",
-		"unitType": "Phage Water",
-		"movement": 2,
-		"strength": 30,
-		"uniques": [
-			"Invisible to non-adjacent units",
-			"Cannot be purchased",
-			"Unbuildable",
-			"[This Unit] heals [25] HP <upon defeating a [Military] unit>"
-		],
-		"attackSound": "shot"
-	},
-
 		
 	{
 		"name": "FarCrawler",
