@@ -7,18 +7,10 @@
 		]
 	},
 	{
-		"name": "Phage Land",
+		"name": "Phage",
 		"movementType": "Land"
 		"uniques": [
 			"Can only attack [non-[City]] units"
 		]
-	},
-	{
-		"name": "Phage Water",
-		"movementType": "Water"
-		"uniques": [
-			"Can only attack [non-[City]] units"
-		]
-	},
-	
+	}
 ]
