@@ -41,7 +41,7 @@ UnitIcons/FarCrawler
 UnitIcons/Tripod
   rotate: false
   xy: 200, 100
-  size: 512, 512
-  orig: 512, 512
+  size: 100, 100
+  orig: 100, 100
   offset: 0, 0
   index: -1
