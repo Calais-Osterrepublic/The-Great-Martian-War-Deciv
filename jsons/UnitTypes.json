@@ -3,14 +3,16 @@
 		"name": "Asylbewerber",
 		"movementType": "Land",
 		"uniques": [
-			"Can only attack [non-[City]] units"
+			"Can only attack [non-[City]] units",
+			"May travel on Water tiles without embarking"
 		]
 	},
 	{
 		"name": "Phage",
 		"movementType": "Land"
 		"uniques": [
-			"Can only attack [non-[City]] units"
+			"Can only attack [non-[City]] units",
+			"May travel on Water tiles without embarking"
 		]
 	}
 ]
