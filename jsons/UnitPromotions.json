@@ -6,7 +6,7 @@
 			"Doing so will consume this opportunity to choose a Promotion",
 			"Will not be displayed in Civilopedia"
 		],
-		"unitTypes":["Asylbewerber","Phage Land","Phage Water"],
+		"unitTypes":["Asylbewerber","Phage"],
 		"innerColor":[
 			253,
 			236,
