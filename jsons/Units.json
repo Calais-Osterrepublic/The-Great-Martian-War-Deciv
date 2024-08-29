@@ -45,7 +45,7 @@
 			"Cannot move",
 			"Cannot be purchased",
 			"Unbuildable",
-			"Free [Residual Form] appears <upon being defeated>"
+			"Free [Residual Form] appears <upon being defeated> <when adjacent to a [Unophage] unit>"
 		],
 		"attackSound": "shot"
 	},
