@@ -16,8 +16,7 @@
 			"[This Unit] heals [25] HP <upon defeating a [Military] unit>",
 
 			"Comment [Gains free Phage Units appear after defeating Military units]",
-			"Free [Young Unophage] appears <upon defeating a [Land] unit> <hidden from users>",
-			"Free [Floating Sleeper] appears <upon defeating a [Water] unit> <hidden from users>",
+			"Free [Young Unophage] appears <upon defeating a [Military] unit> <hidden from users>",
 			"[50]% chance to intercept air attacks"
 		],
 		"attackSound": "shot"
