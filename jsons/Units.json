@@ -7,7 +7,7 @@
 		"range": 2,
 		"rangedStrength": 60,
 		"uniques": [
-			"Cannot move <in [Land] tiles>",
+			"Cannot move",
 			"Cannot be purchased",
 			"Unbuildable",
 			"[3] additional attacks per turn",
