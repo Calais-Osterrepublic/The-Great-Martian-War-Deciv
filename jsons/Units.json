@@ -7,7 +7,7 @@
 		"range": 2,
 		"rangedStrength": 60,
 		"uniques": [
-			"Cannot move",
+			"Cannot move <in [Land] tiles>",
 			"Cannot be purchased",
 			"Unbuildable",
 			"[3] additional attacks per turn",
@@ -67,7 +67,7 @@
 		"name": "Tripod",
 		"unitType": "Asylbewerber",
 		"movement": 2,
-		"strength": 60,
+		"strength": 40,
 		"range": 1,
 		"rangedStrength": 20,
 		"cost": 400,
