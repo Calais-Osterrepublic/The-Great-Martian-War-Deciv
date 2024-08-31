@@ -60,7 +60,6 @@
 			"Unbuildable",
 			"Invisible to non-adjacent units"
 		],
-		"promotions": ["Ignore terrain cost"],
 		"attackSound": "nonmetalhit"
 	},
 	{
@@ -77,7 +76,6 @@
 			"Unbuildable",
 			"Free [FarCrawler] appears <upon being defeated>"
 		],
-		"promotions": ["Ignore terrain cost"],
 		"attackSound": "metalhit"
 	},
 	{
@@ -95,7 +93,6 @@
 			"Comment [Can construct Tripod units]",
 			"Free [Tripod] appears <upon ending a turn in a [Land] tile> <hidden from users>"
 		],
-		"promotions": ["Ignore terrain cost"],
 		"attackSound": "artillery"
 	},
 ]
