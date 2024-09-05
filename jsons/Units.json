@@ -3,9 +3,9 @@
 		"name": "Unophage",
 		"unitType": "Phage",
 		"movement": 4,
-		"strength": 40,
-		"range": 2,
-		"rangedStrength": 60,
+		"strength": 60,
+		"range": 3,
+		"rangedStrength": 40,
 		"uniques": [
 			"Cannot move",
 			"Cannot be purchased",
@@ -17,6 +17,7 @@
 
 			"Comment [Gains free Phage Units appear after defeating Military units]",
 			"Free [Young Unophage] appears <upon defeating a [Military] unit> <hidden from users>",
+			"Free [Residual Form] appears <upon defeating a [Military] unit> <hidden from users>",
 			"[50]% chance to intercept air attacks"
 		],
 		"attackSound": "shot"
@@ -54,7 +55,7 @@
 		"name": "FarCrawler",
 		"unitType": "Asylbewerber",
 		"movement": 4,
-		"strength": 10,
+		"strength": 30,
 		"uniques": [
 			"Cannot be purchased",
 			"Unbuildable",
@@ -82,9 +83,9 @@
 		"name": "Heron",
 		"unitType": "Asylbewerber",
 		"movement": 1,
-		"strength": 50,
+		"strength": 100,
 		"range": 2,
-		"rangedStrength": 100,
+		"rangedStrength": 50,
 		"uniques": [
 			"Cannot be purchased",
 			"Unbuildable",
