@@ -40,4 +40,75 @@
 			}
 		]
 	},
+	
+	{
+		"name": "Fallen",
+		"text": "",
+		"presentation": "None",
+		"choices": [
+			{
+				"text": "Incident #1",
+				"triggeredUniques": [
+					"Free [Young Unophage] appears <for [Barbarians]>"
+				],
+			},
+			{
+				"text": "Incident #1-1",
+				"triggeredUniques": [
+					"[2] free [Young Unophage] units appear <for [Barbarians]>"
+				],
+			},
+			{
+				"text": "Incident #1-2",
+				"triggeredUniques": [
+					"[3] free [Young Unophage] units appear <for [Barbarians]>"
+				],
+			},
+			{
+				"text": "Incident #2",
+				"triggeredUniques": [
+					"Free [Unophage] appears <for [Barbarians]>"
+				],
+			},
+			{
+				"text": "Incident #3",
+				"triggeredUniques": [
+					"Free [FarCrawler] appears <for [Barbarians]>"
+				],
+			},
+			{
+				"text": "Incident #3-1",
+				"triggeredUniques": [
+					"[2] free [FarCrawler] units appear <for [Barbarians]>"
+				],
+			},
+			{
+				"text": "Incident #3-2",
+				"triggeredUniques": [
+					"[3] free [FarCrawler] units appear <for [Barbarians]>"
+				],
+			},
+		]
+	},
+	{
+		"name": "Reinforcements",
+		"text": "",
+		"presentation": "None",
+		"choices": [
+			{
+				"text": "Unophage Crater",
+				"triggeredUniques": [
+					"Free [Unophage] appears <for [Barbarians]>",
+					"[3] free [Residual Form] units appear <for [Barbarians]>"
+				],
+			},
+			{
+				"text": "Squad Arrival",
+				"triggeredUniques": [
+					"Free [Heron] appears <for [Barbarians]>",
+					"[3] free [Tripod] units appear <for [Barbarians]>"
+				],
+			},
+		]
+	}
 ]
