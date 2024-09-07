@@ -1,46 +1,51 @@
 [
 	{
 		"name": "Scouting Wave",
-		"text": "",
-		"presentation": "None",
+		"text": "Tonight, a once-in-a-lifetime metor shower descends from the heavens. Some look up at the night sky and marvel, while others recoil and warn others of impending doom. The fearmongers overcome the population, and many fear that this nightime display is a sign of the future. You can't help but wonder though...",
+		"presentation": "Alert",
 		"choices": [
 			{
-				"text": "Incident #1",
+				"text": "What could this mean?",
 				"triggeredUniques": [
-					"Free [Unophage] appears <for [Barbarians]>",
-					"Free [FarCrawler] appears <for [Barbarians]>"
+					"Comment [Look to the sky]",
+					"[+10]% Unhappiness from [Population] [in all cities]",
+					"Free [Unophage] appears <for [Barbarians]> <hidden from users>",
+					"Free [FarCrawler] appears <for [Barbarians]> <hidden from users>",
 				],
 			}
 		]
 	},
 	{
 		"name": "Probing Wave",
-		"text": "",
-		"presentation": "None",
+		"text": "Tonight, a once-in-a-lifetime metor shower descends from the heavens. While some look up at the night sky and marvel, others recall attacks from unholy forces. A meteor shower like this one has happened before, so whatever happens, you feel prepared for what comes next.",
+		"presentation": "Alert",
 		"choices": [
 			{
-				"text": "Heron Arrival",
+				"text": "But can we really be sure?",
 				"triggeredUniques": [
-					"Free [Heron] appears <for [Barbarians]>", 
-					"Free [Unophage] appears <for [Barbarians]>"
+					"Comment [Never too late]",
+					"[+10]% Unhappiness from [Population] [in all cities]",
+					"Free [Heron] appears <for [Barbarians]> <hidden from users>", 
+					"Free [Unophage] appears <for [Barbarians]> <hidden from users>"
 				],
 			}
 		]
 	},
 	{
 		"name": "Invasion Wave",
-		"text": "",
-		"presentation": "None",
+		"text": "No meteor shower can outpreform the warning that is a rumbling upon the earth.",
+		"presentation": "Alert",
 		"choices": [
 			{
-				"text": "Descent of the Invasion Force",
+				"text": "We must end them, here and now!",
 				"triggeredUniques": [
+					"Comment [Nowhere to run]",
+					"[+10]% Unhappiness from [Population] [in all cities]",
 					"[5] free [Heron] units appear <for [Barbarians]>"
 				]
 			}
 		]
 	},
-	
 	{
 		"name": "Fallen",
 		"text": "",
@@ -110,5 +115,18 @@
 				],
 			},
 		]
-	}
+	},
+	{
+		"name": "Uprising",
+		"text": "A revolt has broken out! Some of those among them seem to be making a racket, as if to call down the enemy from above!",
+		"presentation": "Alert",
+		"choices": [
+			{
+				"text": "Bring them down, quickly!",
+				"triggeredUniques": [
+					"Rebel units may spawn <with [100]% chance> <for [2] turns>",
+				],
+			}
+		]
+	},
 ]
