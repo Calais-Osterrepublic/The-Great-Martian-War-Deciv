@@ -26,7 +26,7 @@
 		"name": "Young Unophage",
 		"unitType": "Phage",
 		"movement": 2,
-		"strength": 30,
+		"strength": 20,
 		"uniques": [
 			"May upgrade to [Unophage] through ruins-like effects <hidden from users>",
 			"Cannot be purchased",
@@ -55,7 +55,7 @@
 		"name": "FarCrawler",
 		"unitType": "Asylbewerber",
 		"movement": 4,
-		"strength": 30,
+		"strength": 20,
 		"uniques": [
 			"Cannot be purchased",
 			"Unbuildable",
