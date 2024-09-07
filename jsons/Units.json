@@ -3,9 +3,9 @@
 		"name": "Unophage",
 		"unitType": "Phage",
 		"movement": 4,
-		"strength": 60,
+		"strength": 40,
 		"range": 3,
-		"rangedStrength": 40,
+		"rangedStrength": 50,
 		"uniques": [
 			"Cannot move",
 			"Cannot be purchased",
