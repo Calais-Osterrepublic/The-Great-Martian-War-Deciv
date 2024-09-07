@@ -1,8 +1,8 @@
 {
 	"name":"Global uniques",
 	"uniques":[
-		"Triggers a [Wave 1] event <upon turn end> <after turn number [100]> <before turn number [101]>",
-		"Triggers a [Wave 2] event <upon turn end> <after turn number [250]> <before turn number [251]>",
-		"Triggers a [Wave 3] event <upon turn end> <after turn number [400]> <before turn number [401]>",
+		"Triggers a [Scouting Wave] event <upon turn end> <after turn number [100]> <with [80]% chance>",
+		"Triggers a [Probing Wave] event <upon turn end> <after turn number [250]> <with [75]% chance>",
+		"Triggers a [Invasion Wave] event <upon turn end> <after turn number [400]> <with [50]% chance>",
 	]
 }
