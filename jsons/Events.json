@@ -70,12 +70,6 @@
 				],
 			},
 			{
-				"text": "Incident #2",
-				"triggeredUniques": [
-					"Free [Unophage] appears <for [Barbarians]>"
-				],
-			},
-			{
 				"text": "Incident #3",
 				"triggeredUniques": [
 					"Free [FarCrawler] appears <for [Barbarians]>"
