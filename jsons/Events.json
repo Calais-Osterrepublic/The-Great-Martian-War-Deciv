@@ -8,7 +8,7 @@
 				"text": "What could this mean?",
 				"triggeredUniques": [
 					"Comment [Look to the sky]",
-					"[+10]% Unhappiness from [Population] [in all cities]",
+					"[+10]% Unhappiness from [Population] [in all cities] <for [20] turns>",
 					"Free [Unophage] appears <for [Barbarians]> <hidden from users>",
 					"Free [FarCrawler] appears <for [Barbarians]> <hidden from users>",
 				],
@@ -24,7 +24,7 @@
 				"text": "But can we really be sure?",
 				"triggeredUniques": [
 					"Comment [Never too late]",
-					"[+10]% Unhappiness from [Population] [in all cities]",
+					"[+10]% Unhappiness from [Population] [in all cities] <for [20] turns>",
 					"Free [Heron] appears <for [Barbarians]> <hidden from users>", 
 					"Free [Unophage] appears <for [Barbarians]> <hidden from users>"
 				],
@@ -40,7 +40,7 @@
 				"text": "We must end them, here and now!",
 				"triggeredUniques": [
 					"Comment [Nowhere to run]",
-					"[+10]% Unhappiness from [Population] [in all cities]",
+					"[+10]% Unhappiness from [Population] [in all cities] <for [20] turns>",
 					"[5] free [Heron] units appear <for [Barbarians]>"
 				]
 			}
