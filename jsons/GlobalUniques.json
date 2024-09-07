@@ -4,5 +4,8 @@
 		"Triggers a [Scouting Wave] event <upon turn end> <after turn number [100]> <before turn number [101]>",
 		"Triggers a [Probing Wave] event <upon turn end> <after turn number [250]> <before turn number [251]>",
 		"Triggers a [Invasion Wave] event <upon turn end> <after turn number [400]> <before turn number [401]>",
+
+		"Triggers a [Fallen] event <upon turn end> <after turn number [100]> <with [25]% chance>",
+		"Triggers a [Reinforcement] event <upon turn end> <after turn number [400]> <with [25]% chance>",
 	]
 }
