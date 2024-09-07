@@ -1,6 +1,6 @@
 [
 	{
-		"name": "Wave 1",
+		"name": "Scouting Wave",
 		"text": "",
 		"presentation": "None",
 		"choices": [
@@ -14,7 +14,7 @@
 		]
 	},
 	{
-		"name": "Wave 2",
+		"name": "Probing Wave",
 		"text": "",
 		"presentation": "None",
 		"choices": [
@@ -28,7 +28,7 @@
 		]
 	},
 	{
-		"name": "Wave 3",
+		"name": "Invasion Wave",
 		"text": "",
 		"presentation": "None",
 		"choices": [
