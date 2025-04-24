@@ -6,7 +6,7 @@
 		"choices": [
 			{
 				"text": "What could this mean?",
-				"triggeredUniques": [
+				"uniques": [
 					"Comment [Look to the sky]",
 					"[+10]% Unhappiness from [Population] [in all cities] <for [20] turns>",
 					"Free [Unophage] appears <for [Barbarians]> <hidden from users>",
@@ -22,7 +22,7 @@
 		"choices": [
 			{
 				"text": "But can we really be sure?",
-				"triggeredUniques": [
+				"uniques": [
 					"Comment [Never too late]",
 					"[+10]% Unhappiness from [Population] [in all cities] <for [20] turns>",
 					"Free [Heron] appears <for [Barbarians]> <hidden from users>", 
@@ -38,7 +38,7 @@
 		"choices": [
 			{
 				"text": "We must end them, here and now!",
-				"triggeredUniques": [
+				"uniques": [
 					"Comment [Nowhere to run]",
 					"[+10]% Unhappiness from [Population] [in all cities] <for [20] turns>",
 					"[5] free [Heron] units appear <for [Barbarians]>"
@@ -53,37 +53,37 @@
 		"choices": [
 			{
 				"text": "Incident #1",
-				"triggeredUniques": [
+				"uniques": [
 					"Free [Young Unophage] appears <for [Barbarians]>"
 				],
 			},
 			{
 				"text": "Incident #1-1",
-				"triggeredUniques": [
+				"uniques": [
 					"[2] free [Young Unophage] units appear <for [Barbarians]>"
 				],
 			},
 			{
 				"text": "Incident #1-2",
-				"triggeredUniques": [
+				"uniques": [
 					"[3] free [Young Unophage] units appear <for [Barbarians]>"
 				],
 			},
 			{
 				"text": "Incident #3",
-				"triggeredUniques": [
+				"uniques": [
 					"Free [FarCrawler] appears <for [Barbarians]>"
 				],
 			},
 			{
 				"text": "Incident #3-1",
-				"triggeredUniques": [
+				"uniques": [
 					"[2] free [FarCrawler] units appear <for [Barbarians]>"
 				],
 			},
 			{
 				"text": "Incident #3-2",
-				"triggeredUniques": [
+				"uniques": [
 					"[3] free [FarCrawler] units appear <for [Barbarians]>"
 				],
 			},
@@ -96,14 +96,14 @@
 		"choices": [
 			{
 				"text": "Unophage Crater",
-				"triggeredUniques": [
+				"uniques": [
 					"Free [Unophage] appears <for [Barbarians]>",
 					"[3] free [Residual Form] units appear <for [Barbarians]>"
 				],
 			},
 			{
 				"text": "Squad Arrival",
-				"triggeredUniques": [
+				"uniques": [
 					"Free [Heron] appears <for [Barbarians]>",
 					"[3] free [Tripod] units appear <for [Barbarians]>"
 				],
@@ -117,7 +117,7 @@
 		"choices": [
 			{
 				"text": "Bring them down, quickly!",
-				"triggeredUniques": [
+				"uniques": [
 					"Rebel units may spawn <with [100]% chance> <for [2] turns>",
 				],
 			}
