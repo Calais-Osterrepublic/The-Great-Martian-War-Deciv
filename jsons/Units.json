@@ -92,7 +92,7 @@
 			"[+100]% Strength bonus for [Tripod] units within [2] tiles",
 			"[+100]% Strength <vs [Air] units> <when defending>",
 			"Comment [Can construct Tripod units]",
-			"Free [Tripod] appears <upon ending a turn in a [Land] tile> <hidden from users>"
+			"Free [Tripod] appears <upon ending a turn in a [Land] tile> <when [Wounded]> <hidden from users>"
 		],
 		"attackSound": "artillery"
 	},
