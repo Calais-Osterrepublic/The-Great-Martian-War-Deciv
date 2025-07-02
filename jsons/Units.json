@@ -3,7 +3,7 @@
 		"name": "Unophage",
 		"unitType": "Phage",
 		"movement": 4,
-		"strength": 40,
+		"strength": 60,
 		"range": 3,
 		"rangedStrength": 50,
 		"uniques": [
@@ -26,7 +26,7 @@
 		"name": "Young Unophage",
 		"unitType": "Phage",
 		"movement": 2,
-		"strength": 20,
+		"strength": 40,
 		"uniques": [
 			"May upgrade to [Unophage] through ruins-like effects <hidden from users>",
 			"Cannot be purchased",
@@ -41,7 +41,7 @@
 		"name": "Residual Form",
 		"unitType": "Phage",
 		"movement": 2,
-		"strength": 20,
+		"strength": 36,
 		"uniques": [
 			"Cannot move",
 			"Cannot be purchased",
@@ -55,7 +55,7 @@
 		"name": "FarCrawler",
 		"unitType": "Asylbewerber",
 		"movement": 4,
-		"strength": 20,
+		"strength": 36,
 		"uniques": [
 			"Cannot be purchased",
 			"Unbuildable",
@@ -67,7 +67,7 @@
 		"name": "Tripod",
 		"unitType": "Asylbewerber",
 		"movement": 2,
-		"strength": 30,
+		"strength": 60,
 		"range": 1,
 		"rangedStrength": 50,
 		"cost": 400,
@@ -83,9 +83,9 @@
 		"name": "Heron",
 		"unitType": "Asylbewerber",
 		"movement": 1,
-		"strength": 80,
+		"strength": 125,
 		"range": 2,
-		"rangedStrength": 100,
+		"rangedStrength": 90,
 		"uniques": [
 			"Cannot be purchased",
 			"Unbuildable",
